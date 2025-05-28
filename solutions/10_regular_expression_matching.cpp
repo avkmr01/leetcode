@@ -13,8 +13,8 @@ public:
 
         while(i<slen){
             // for * case take input string: s = aabbcc , p=a*b*c*
-            // for . case take input string: s = adasdfw, p=ada.w
-                if(s[i] == p[j]){
+            // for . case take input string: s = abcde, p=ab.d.
+                if(s[i] == p[j] || p[j] == '.'){
                     sum += 1;
                     cout<<s[i]<<sum;
                 } else if(j<plen && s[i] == p[j+2]){
@@ -22,7 +22,7 @@ public:
                     cout<<s[i]<<sum;
                     j = j+2;
                 }
-                if (isalpha(p[j+1])){
+                if (isalpha(p[j+1]) || p[j+1] == '.'){
                     j++;
                 }
                 i++;
