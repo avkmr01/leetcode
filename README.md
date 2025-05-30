@@ -157,3 +157,20 @@ The matching should cover the entire input string (not partial).
 
 ---
 
+**11. Container With Most Water**
+
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.
+
+[Topics](https://github.com/avkmr01/leetcode/blob/main/topics/11_container_with_most_water.md)
+<br>
+[Problem Link](https://leetcode.com/problems/container-with-most-water/)
+<br>
+[Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/11_container_with_most_water.cpp)
+
+---
