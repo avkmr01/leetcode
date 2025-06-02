@@ -174,3 +174,37 @@ Notice that you may not slant the container.
 [Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/11_container_with_most_water.cpp)
 
 ---
+
+**12. Integer to Roman**
+
+Given an integer `num`, convert it to a Roman numeral.
+
+Roman numeral symbols and their values:
+
+| Symbol | Value |   |
+| ------ | ----- | - |
+| M      | 1000  |   |
+| D      | 500   |   |
+| C      | 100   |   |
+| L      | 50    |   |
+| X      | 10    |   |
+| V      | 5     |   |
+| I      | 1     |   |
+
+Rules:
+
+* Roman numerals are written from largest to smallest from left to right.
+* However, in some cases, a smaller numeral appears before a larger one to indicate subtraction.
+* There are six instances where subtraction is used:
+
+  * `I` can be placed before `V` (5) and `X` (10) to make 4 and 9.
+  * `X` can be placed before `L` (50) and `C` (100) to make 40 and 90.
+  * `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
+
+[Topics](https://github.com/avkmr01/leetcode/blob/main/topics/12_integer_to_roman.md)
+<br>
+[Problem Link](https://leetcode.com/problems/integer-to-roman/)
+<br>
+[Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/12_integer_to_roman.cpp)
+
+---
