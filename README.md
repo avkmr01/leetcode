@@ -242,3 +242,29 @@ Given a Roman numeral, convert it to an integer.
 [Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/13_roman_to_integer.cpp)
 
 ---
+
+**14. Longest Common Prefix**
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+Example 1:
+
+Input: strs = \["flower","flow","flight"]
+Output: "fl"
+
+Example 2:
+
+Input: strs = \["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+[Topics](https://github.com/avkmr01/leetcode/blob/main/topics/14_longest_common_prefix.md)
+<br>
+[Problem Link](https://leetcode.com/problems/longest-common-prefix/)
+<br>
+[Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/14_longest_common_prefix.cpp)
+
+
+---
