@@ -290,14 +290,14 @@ Notice that the solution set must **not** contain duplicate triplets.
 
 ---
 
-**15. 3Sum:**
+**16. 3Sum Closest:**
 
-Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that:
+Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to `target`.
 
-* `i != j`, `i != k`, and `j != k`, and
-* `nums[i] + nums[j] + nums[k] == 0`.
+Return the sum of the three integers.
 
-Notice that the solution set must **not** contain duplicate triplets.
+You may assume that each input would have exactly one solution.
+
 
 [Topics](https://github.com/avkmr01/leetcode/blob/main/topics/16_3sum_closest.md)
 <br>
