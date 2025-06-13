@@ -289,3 +289,20 @@ Notice that the solution set must **not** contain duplicate triplets.
 [Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/15_3sum.cpp)
 
 ---
+
+**15. 3Sum:**
+
+Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that:
+
+* `i != j`, `i != k`, and `j != k`, and
+* `nums[i] + nums[j] + nums[k] == 0`.
+
+Notice that the solution set must **not** contain duplicate triplets.
+
+[Topics](https://github.com/avkmr01/leetcode/blob/main/topics/16_3sum_closest.md)
+<br>
+[Problem Link](https://leetcode.com/problems/3sum-closest/)
+<br>
+[Solution](https://github.com/avkmr01/leetcode/blob/main/solutions/16_3sum_closest.cpp)
+
+---
